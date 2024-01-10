@@ -1,0 +1,3 @@
+[submodule "InstrumentedTests"]
+	path = InstrumentedTests
+	url = git@github.com:rhacrsse/UI-Automator-Functional-Tests.git
