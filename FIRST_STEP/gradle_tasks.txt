@@ -1,0 +1,335 @@
+> ./gradlew tasks --all
+
+> Task :tasks
+
+------------------------------------------------------------
+Tasks runnable from root project 'TemplateTest1'
+------------------------------------------------------------
+
+Android tasks
+-------------
+app:androidDependencies - Displays the Android dependencies of the project.
+app:signingReport - Displays the signing info for the base and test modules
+app:sourceSets - Prints out all the source sets defined in this project.
+
+Build tasks
+-----------
+app:assemble - Assemble main outputs for all the variants.
+app:assembleAndroidTest - Assembles all the Test applications.
+app:build - Assembles and tests this project.
+app:buildDependents - Assembles and tests this project and all projects that depend on it.
+app:buildKotlinToolingMetadata - Build metadata json file containing information about the used Kotlin tooling
+app:buildNeeded - Assembles and tests this project and all projects it depends on.
+app:bundle - Assemble bundles for all the variants.
+app:clean - Deletes the build directory.
+app:compileDebugAndroidTestSources
+app:compileDebugSources
+app:compileDebugUnitTestSources
+app:compileReleaseSources
+app:compileReleaseUnitTestSources
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+wrapper - Generates Gradle wrapper files.
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'TemplateTest1'.
+app:buildEnvironment - Displays all buildscript dependencies declared in project ':app'.
+dependencies - Displays all dependencies declared in root project 'TemplateTest1'.
+app:dependencies - Displays all dependencies declared in project ':app'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'TemplateTest1'.
+app:dependencyInsight - Displays the insight into a specific dependency in project ':app'.
+help - Displays a help message.
+app:help - Displays a help message.
+javaToolchains - Displays the detected java toolchains.
+app:javaToolchains - Displays the detected java toolchains.
+outgoingVariants - Displays the outgoing variants of root project 'TemplateTest1'.
+app:outgoingVariants - Displays the outgoing variants of project ':app'.
+projects - Displays the sub-projects of root project 'TemplateTest1'.
+app:projects - Displays the sub-projects of project ':app'.
+properties - Displays the properties of root project 'TemplateTest1'.
+app:properties - Displays the properties of project ':app'.
+tasks - Displays the tasks runnable from root project 'TemplateTest1' (some of the displayed tasks may belong to subprojects).
+app:tasks - Displays the tasks runnable from project ':app'.
+
+Install tasks
+-------------
+app:installDebug - Installs the Debug build.
+app:installDebugAndroidTest - Installs the android (on device) tests for the Debug build.
+app:uninstallAll - Uninstall all applications.
+app:uninstallDebug - Uninstalls the Debug build.
+app:uninstallDebugAndroidTest - Uninstalls the android (on device) tests for the Debug build.
+app:uninstallRelease - Uninstalls the Release build.
+
+Verification tasks
+------------------
+app:check - Runs all checks.
+app:checkJetifier - Checks whether Jetifier is needed for the current project
+app:connectedAndroidTest - Installs and runs instrumentation tests for all flavors on connected devices.
+app:connectedCheck - Runs all device checks on currently connected devices.
+app:connectedDebugAndroidTest - Installs and runs the tests for debug on connected devices.
+app:deviceAndroidTest - Installs and runs instrumentation tests using all Device Providers.
+app:deviceCheck - Runs all device checks using Device Providers and Test Servers.
+app:lint - Runs lint on the default variant.
+app:lintAnalyzeDebug - Run lint analysis on the debug variant
+app:lintAnalyzeRelease - Run lint analysis on the release variant
+app:lintDebug - Print text output from the corresponding lint report task
+app:lintFix - Runs lint on the default variant and applies any safe suggestions to the source code.
+app:lintFixDebug - Fix lint on the debug variant
+app:lintFixRelease - Fix lint on the release variant
+app:lintRelease - Print text output from the corresponding lint report task
+app:lintReportDebug - Run lint on the debug variant
+app:lintReportRelease - Run lint on the release variant
+app:lintVitalAnalyzeRelease - Run lint analysis with only the fatal issues enabled on the release variant
+app:lintVitalRelease - Print text output from the corresponding lint report task
+app:lintVitalReportRelease - Run lint with only the fatal issues enabled on the release variant
+app:test - Run unit tests for all variants.
+app:testDebugUnitTest - Run unit tests for the debug build.
+app:testReleaseUnitTest - Run unit tests for the release build.
+
+Other tasks
+-----------
+app:analyticsRecordingRelease
+app:analyzeDebugAndroidTestDependencies
+app:analyzeDebugDependencies
+app:analyzeDebugUnitTestDependencies
+app:analyzeReleaseDependencies
+app:analyzeReleaseUnitTestDependencies
+app:assembleDebug - Assembles main output for variant debug
+app:assembleDebugAndroidTest - Assembles main output for variant debugAndroidTest
+app:assembleDebugUnitTest - Assembles main output for variant debugUnitTest
+app:assembleRelease - Assembles main output for variant release
+app:assembleReleaseUnitTest - Assembles main output for variant releaseUnitTest
+app:buildDebugPreBundle
+app:buildReleasePreBundle
+app:bundleDebug - Assembles bundle for variant debug
+app:bundleDebugAndroidTestClassesToCompileJar
+app:bundleDebugAndroidTestClassesToRuntimeJar
+app:bundleDebugClassesToCompileJar
+app:bundleDebugClassesToRuntimeJar
+app:bundleDebugResources
+app:bundleDebugUnitTestClassesToCompileJar
+app:bundleDebugUnitTestClassesToRuntimeJar
+app:bundleRelease - Assembles bundle for variant release
+app:bundleReleaseClassesToCompileJar
+app:bundleReleaseClassesToRuntimeJar
+app:bundleReleaseResources
+app:bundleReleaseUnitTestClassesToCompileJar
+app:bundleReleaseUnitTestClassesToRuntimeJar
+app:checkDebugAarMetadata
+app:checkDebugAndroidTestAarMetadata
+app:checkDebugAndroidTestDuplicateClasses
+app:checkDebugDuplicateClasses
+app:checkDebugManifest
+app:checkReleaseAarMetadata
+app:checkReleaseDuplicateClasses
+app:checkReleaseManifest
+clean
+app:collectReleaseDependencies
+app:compileDebugAidl
+app:compileDebugAndroidTestAidl
+app:compileDebugAndroidTestJavaWithJavac
+app:compileDebugAndroidTestKotlin - Compiles the debugAndroidTest kotlin.
+app:compileDebugAndroidTestRenderscript
+app:compileDebugAndroidTestShaders
+app:compileDebugArtProfile
+app:compileDebugJavaWithJavac
+app:compileDebugKotlin - Compiles the debug kotlin.
+app:compileDebugRenderscript
+app:compileDebugShaders
+app:compileDebugUnitTestJavaWithJavac
+app:compileDebugUnitTestKotlin - Compiles the debugUnitTest kotlin.
+app:compileLint
+app:compileLintChecks
+app:compileReleaseAidl
+app:compileReleaseArtProfile
+app:compileReleaseJavaWithJavac
+app:compileReleaseKotlin - Compiles the release kotlin.
+app:compileReleaseRenderscript
+app:compileReleaseShaders
+app:compileReleaseUnitTestJavaWithJavac
+app:compileReleaseUnitTestKotlin - Compiles the releaseUnitTest kotlin.
+components - Displays the components produced by root project 'TemplateTest1'. [deprecated]
+app:components - Displays the components produced by project ':app'. [deprecated]
+app:compressDebugAndroidTestAssets
+app:compressDebugAssets
+app:compressReleaseAssets
+app:configureReleaseDependencies
+app:consumeConfigAttr
+app:createDebugAndroidTestApkListingFileRedirect
+app:createDebugApkListingFileRedirect
+app:createDebugApksFromBundleListingFileRedirect
+app:createDebugBundleListingFileRedirect
+app:createDebugCompatibleScreenManifests
+app:createDebugVariantModel
+app:createMockableJar
+app:createReleaseApkListingFileRedirect
+app:createReleaseApksFromBundleListingFileRedirect
+app:createReleaseBundleListingFileRedirect
+app:createReleaseCompatibleScreenManifests
+app:createReleaseVariantModel
+dependentComponents - Displays the dependent components of components in root project 'TemplateTest1'. [deprecated]
+app:dependentComponents - Displays the dependent components of components in project ':app'. [deprecated]
+app:desugarDebugAndroidTestFileDependencies
+app:desugarDebugFileDependencies
+app:desugarReleaseFileDependencies
+app:dexBuilderDebug
+app:dexBuilderDebugAndroidTest
+app:dexBuilderRelease
+app:extractApksForDebug
+app:extractApksForRelease
+app:extractApksFromBundleForDebug
+app:extractApksFromBundleForRelease
+app:extractDebugNativeDebugMetadata
+app:extractDebugNativeSymbolTables
+app:extractDeepLinksDebug
+app:extractDeepLinksRelease
+app:extractProguardFiles
+app:extractReleaseNativeDebugMetadata
+app:extractReleaseNativeSymbolTables
+app:generateDebugAndroidTestAssets
+app:generateDebugAndroidTestBuildConfig
+app:generateDebugAndroidTestResources
+app:generateDebugAndroidTestResValues
+app:generateDebugAndroidTestSources
+app:generateDebugAssets
+app:generateDebugBuildConfig
+app:generateDebugFeatureMetadata
+app:generateDebugFeatureTransitiveDeps
+app:generateDebugLintModel
+app:generateDebugManifestClass
+app:generateDebugResources
+app:generateDebugResValues
+app:generateDebugSources
+app:generateDebugUnitTestAssets
+app:generateDebugUnitTestResources
+app:generateDebugUnitTestSources
+app:generateReleaseAssets
+app:generateReleaseBuildConfig
+app:generateReleaseFeatureMetadata
+app:generateReleaseFeatureTransitiveDeps
+app:generateReleaseLintModel
+app:generateReleaseManifestClass
+app:generateReleaseResources
+app:generateReleaseResValues
+app:generateReleaseSources
+app:generateReleaseUnitTestAssets
+app:generateReleaseUnitTestResources
+app:generateReleaseUnitTestSources
+app:javaPreCompileDebug
+app:javaPreCompileDebugAndroidTest
+app:javaPreCompileDebugUnitTest
+app:javaPreCompileRelease
+app:javaPreCompileReleaseUnitTest
+app:makeApkFromBundleForDebug
+app:makeApkFromBundleForRelease
+app:mapDebugAndroidTestSourceSetPaths
+app:mapDebugSourceSetPaths
+app:mapReleaseSourceSetPaths
+app:mergeDebugAndroidTestAssets
+app:mergeDebugAndroidTestGeneratedProguardFiles
+app:mergeDebugAndroidTestJavaResource
+app:mergeDebugAndroidTestJniLibFolders
+app:mergeDebugAndroidTestNativeLibs
+app:mergeDebugAndroidTestResources
+app:mergeDebugAndroidTestShaders
+app:mergeDebugArtProfile
+app:mergeDebugAssets
+app:mergeDebugGeneratedProguardFiles
+app:mergeDebugJavaResource
+app:mergeDebugJniLibFolders
+app:mergeDebugNativeDebugMetadata
+app:mergeDebugNativeLibs
+app:mergeDebugResources
+app:mergeDebugShaders
+app:mergeDexRelease
+app:mergeExtDexDebug
+app:mergeExtDexDebugAndroidTest
+app:mergeExtDexRelease
+app:mergeLibDexDebug
+app:mergeLibDexDebugAndroidTest
+app:mergeProjectDexDebug
+app:mergeProjectDexDebugAndroidTest
+app:mergeReleaseArtProfile
+app:mergeReleaseAssets
+app:mergeReleaseGeneratedProguardFiles
+app:mergeReleaseJavaResource
+app:mergeReleaseJniLibFolders
+app:mergeReleaseNativeDebugMetadata
+app:mergeReleaseNativeLibs
+app:mergeReleaseResources
+app:mergeReleaseShaders
+model - Displays the configuration model of root project 'TemplateTest1'. [deprecated]
+app:model - Displays the configuration model of project ':app'. [deprecated]
+app:optimizeReleaseResources
+app:packageDebug
+app:packageDebugAndroidTest
+app:packageDebugBundle
+app:packageDebugResources
+app:packageDebugUniversalApk
+app:packageRelease
+app:packageReleaseBundle
+app:packageReleaseResources
+app:packageReleaseUniversalApk
+app:parseDebugIntegrityConfig
+app:parseDebugLocalResources
+app:parseReleaseIntegrityConfig
+app:parseReleaseLocalResources
+app:preBuild
+app:preDebugAndroidTestBuild
+app:preDebugBuild
+app:preDebugUnitTestBuild
+prepareKotlinBuildScriptModel
+app:prepareLintJarForPublish
+app:preReleaseBuild
+app:preReleaseUnitTestBuild
+app:processApplicationManifestDebugForBundle
+app:processApplicationManifestReleaseForBundle
+app:processDebugAndroidTestJavaRes
+app:processDebugAndroidTestManifest
+app:processDebugAndroidTestResources
+app:processDebugJavaRes
+app:processDebugMainManifest
+app:processDebugManifest
+app:processDebugManifestForInstantApp
+app:processDebugManifestForPackage
+app:processDebugResources
+app:processDebugUnitTestJavaRes
+app:processManifestDebugForFeature
+app:processManifestReleaseForFeature
+app:processReleaseJavaRes
+app:processReleaseMainManifest
+app:processReleaseManifest
+app:processReleaseManifestForInstantApp
+app:processReleaseManifestForPackage
+app:processReleaseResources
+app:processReleaseUnitTestJavaRes
+app:produceDebugBundleIdeListingFile
+app:produceReleaseBundleIdeListingFile
+app:resolveConfigAttr
+app:sdkReleaseDependencyData
+app:signDebugBundle
+app:signingConfigWriterDebug
+app:signingConfigWriterDebugAndroidTest
+app:signingConfigWriterRelease
+app:signReleaseBundle
+app:stripDebugDebugSymbols
+app:stripReleaseDebugSymbols
+app:validateSigningDebug
+app:validateSigningDebugAndroidTest
+app:writeDebugAndroidTestSigningConfigVersions
+app:writeDebugApplicationId
+app:writeDebugAppMetadata
+app:writeDebugModuleMetadata
+app:writeDebugSigningConfigVersions
+app:writeReleaseApplicationId
+app:writeReleaseAppMetadata
+app:writeReleaseModuleMetadata
+app:writeReleaseSigningConfigVersions
+app:zipApksForDebug
+app:zipApksForRelease
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
